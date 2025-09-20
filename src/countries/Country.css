@@ -1,0 +1,54 @@
+.country {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+}
+
+
+.country img {
+  width: 100%;
+  border-radius: 14px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.country h3 {
+  color: #333;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+.country p {
+  color: #555;
+  margin: 6px 0;
+  font-size: 0.95rem;
+}
+
+.country button {
+  background: linear-gradient(135deg, #4ade80, #22c55e);
+  color: white;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 12px;
+  margin-top: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.country button:hover {
+  background: lightsteelblue;
+  color: black;
+}
+
+/* Visited / Not Visited states */
+.country-visited {
+  background: linear-gradient(135deg, #d9f99d 0%, #a7f3d0 100%);
+  border: 2px solid #34d399;
+}
+
+.country-not-visited {
+  background: #ffffff;
+}
